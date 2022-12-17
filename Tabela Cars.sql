@@ -33,12 +33,16 @@ SELECT * FROM CARS
 
 -- Altera ano do carro 4
 
-UPDATE CARS SET YEAR = 2019 WHERE NAME = 'Fiat Cronos'
+UPDATE CARS SET YEAR = 2019 WHERE NAME = 'Fiat Cronos';
 
 -- Deleta carro Hyundai HB20 1.6
 
-DELETE FROM CARS WHERE NAME = 'Hyundai HB20 1.6'
+DELETE FROM CARS WHERE NAME = 'Hyundai HB20 1.6';
 
 -- Exibe carros com STATUS Liberado
 
-SELECT * FROM CARS WHERE STATUS IS 'Liberado'
+SELECT * FROM CARS WHERE STATUS IS 'Liberado';
+
+-- Exibe carros com YEAR 2016
+
+SELECT * FROM CARS WHERE YEAR IS 2016;
