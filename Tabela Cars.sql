@@ -38,3 +38,7 @@ UPDATE CARS SET YEAR = 2019 WHERE NAME = 'Fiat Cronos'
 -- Deleta carro Hyundai HB20 1.6
 
 DELETE FROM CARS WHERE NAME = 'Hyundai HB20 1.6'
+
+-- Exibe carros com STATUS Liberado
+
+SELECT * FROM CARS WHERE STATUS IS 'Liberado'
