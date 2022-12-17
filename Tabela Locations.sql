@@ -47,3 +47,14 @@ SELECT
   JOIN CARS ON (LOCATIONS.CAR_ID = CARS.ID)
   JOIN EMPLOYEES ON (LOCATIONS.EMPLOYEE_ID = EMPLOYEES.ID);
 
+-- Exibe contagem de locações
+
+SELECT COUNT(*) AS 'Número de Locações' FROM LOCATIONS;
+
+-- Exibe locação com maior valor de TOTAL
+
+SELECT MAX(TOTAL) AS 'Máior Valor de Total' FROM LOCATIONS;
+
+-- Exibe locações realizadas entre determinadas datas
+
+SELECT * FROM LOCATIONS WHERE START_DATE >= '2022-05-20' AND END_DATE <= '2022-12-25';
