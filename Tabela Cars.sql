@@ -30,3 +30,7 @@ INSERT INTO CARS (NAME,	YEAR,	COLOR,	KM,	STATUS,	BRAND_ID,	MODEL_ID)
 -- Consultando Dados da Tabela
 
 SELECT * FROM CARS
+
+-- Altera ano do carro 4
+
+UPDATE CARS SET YEAR = 2019 WHERE NAME = 'Fiat Cronos'
