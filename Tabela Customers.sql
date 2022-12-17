@@ -36,3 +36,7 @@ SELECT * FROM CUSTOMERS
 -- Query para alteração do email do cliente 9
 
 UPDATE CUSTOMERS SET EMAIL = 'carolina@campuscode.com.br' WHERE ID IS 9;
+
+-- Query para alteração da data de nascimento do cliente 4
+
+UPDATE CUSTOMERS SET BIRTH_DATE = '1986-06-19' WHERE ID IS 4;
