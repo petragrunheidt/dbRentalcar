@@ -31,4 +31,8 @@ INSERT INTO CUSTOMERS (NAME, LASTNAME, PHONE, EMAIL, ADDRESS, CITY, STATE, BIRTH
 
 -- Exibição da tabela
 
-SELECT * FROM CUSTOMERS  
+SELECT * FROM CUSTOMERS
+
+-- Query para alteração do email do cliente 9
+
+UPDATE CUSTOMERS SET EMAIL = 'carolina@campuscode.com.br' WHERE ID IS 9;
